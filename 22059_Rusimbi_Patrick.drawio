@@ -1,0 +1,101 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="HekCqmyWO1DZ5NtoT8O_">
+    <mxGraphModel dx="1364" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8NGIekouM7JTUqROGxGP-1" value="" style="ellipse;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="388" y="20" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="8NGIekouM7JTUqROGxGP-2" value="North-South Green Light" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="180" y="123" width="183" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="8NGIekouM7JTUqROGxGP-3" value="North-South Yellow Light" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="70" y="262" width="184" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="8NGIekouM7JTUqROGxGP-4" value="North-South Red Light" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="384" width="285" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="8NGIekouM7JTUqROGxGP-5" value="North-South Red Light" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="77" y="506" width="170" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="8NGIekouM7JTUqROGxGP-6" value="North-South Red Light" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="77" y="628" width="171" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="8NGIekouM7JTUqROGxGP-7" value="North-South Red Light" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="750" width="285" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="8NGIekouM7JTUqROGxGP-8" value="All Directions Red Light" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="177" y="872" width="189" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="8NGIekouM7JTUqROGxGP-9" value="All Directions Flashing Red Light" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="461" y="123" width="208" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="8NGIekouM7JTUqROGxGP-10" value="" style="ellipse;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="558" y="281" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="8NGIekouM7JTUqROGxGP-11" value="" style="curved=1;startArrow=none;;exitX=-0.03;exitY=0.71;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="8NGIekouM7JTUqROGxGP-1" target="8NGIekouM7JTUqROGxGP-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="272" y="78" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NGIekouM7JTUqROGxGP-12" value="After Green Timer" style="curved=1;startArrow=none;;exitX=0.28;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="8NGIekouM7JTUqROGxGP-2" target="8NGIekouM7JTUqROGxGP-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="162" y="218" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NGIekouM7JTUqROGxGP-13" value="After Yellow Timer" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="8NGIekouM7JTUqROGxGP-3" target="8NGIekouM7JTUqROGxGP-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NGIekouM7JTUqROGxGP-14" value="Delay Complete" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="8NGIekouM7JTUqROGxGP-4" target="8NGIekouM7JTUqROGxGP-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NGIekouM7JTUqROGxGP-15" value="After Green Timer" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="8NGIekouM7JTUqROGxGP-5" target="8NGIekouM7JTUqROGxGP-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NGIekouM7JTUqROGxGP-16" value="After Yellow Timer" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="8NGIekouM7JTUqROGxGP-6" target="8NGIekouM7JTUqROGxGP-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NGIekouM7JTUqROGxGP-17" value="Allow Pedestrian Crossing" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.26;entryY=0;rounded=0;" edge="1" parent="1" source="8NGIekouM7JTUqROGxGP-7" target="8NGIekouM7JTUqROGxGP-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="162" y="837" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NGIekouM7JTUqROGxGP-18" value="Pedestrian Timer Complete" style="curved=1;startArrow=none;;exitX=0.74;exitY=0;entryX=0.72;entryY=0.99;rounded=0;" edge="1" parent="1" source="8NGIekouM7JTUqROGxGP-8" target="8NGIekouM7JTUqROGxGP-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="381" y="837" />
+              <mxPoint x="381" y="218" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NGIekouM7JTUqROGxGP-19" value="Emergency Signal Received" style="curved=1;startArrow=none;;exitX=0.97;exitY=0.65;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="8NGIekouM7JTUqROGxGP-1" target="8NGIekouM7JTUqROGxGP-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="565" y="78" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NGIekouM7JTUqROGxGP-20" value="Emergency Cleared, Return to Normal Operation" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.99;entryX=0.47;entryY=-0.02;rounded=0;" edge="1" parent="1" source="8NGIekouM7JTUqROGxGP-9" target="8NGIekouM7JTUqROGxGP-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
